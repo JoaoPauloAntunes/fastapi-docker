@@ -1,4 +1,5 @@
 #!/bin/bash
+# chmod +x deploy.sh
 
 # Parar e remover o contêiner existente, se existir
 docker stop "fastapi-container" >/dev/null 2>&1
